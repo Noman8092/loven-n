@@ -1020,11 +1020,14 @@ dialog .bd {
 dialog h3 {
     color: var(--wine);
     font-size: 1.4rem;
-    margin-bottom: 10px
+    padding-bottom: 12px;
+    margin-bottom: 16px;
+    border-bottom: 1px solid rgba(201, 164, 92, .4)
 }
 
 dialog .tx {
-    font: 1.8rem/1.5 var(--hand);
+    font: 1.05rem/1.85 var(--serif);
+    color: var(--ink);
     white-space: pre-wrap
 }
 
@@ -1286,7 +1289,7 @@ footer {
 
 @media(max-width:480px) {
     dialog .tx {
-        font-size: 1.5rem
+        font-size: 1rem
     }
     #ltxt {
         font-size: 1.65rem;
